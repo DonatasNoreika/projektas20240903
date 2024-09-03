@@ -8,4 +8,8 @@ kursas = Course("Python kursas")
 
 metai = int(input("Įveskite metus: "))
 
-print(calendar.isleap(metai))
+if calendar.isleap(metai):
+    print("Keliamieji")
+else:
+    print("Nekeliamieji")
+
