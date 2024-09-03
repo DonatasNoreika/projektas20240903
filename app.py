@@ -14,3 +14,4 @@ if calendar.isleap(metai):
 else:
     print("Nekeliamieji")
 
+input()
