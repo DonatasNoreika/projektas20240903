@@ -4,7 +4,7 @@ import flask
 import calendar
 from models import Course
 
-kursas = Course("Python kursas")
+kursas = Course("Python kursas", 500)
 
 metai = int(input("Įveskite metus: "))
 
