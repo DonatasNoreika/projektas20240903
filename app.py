@@ -1,6 +1,7 @@
 import sqlalchemy
 import pandas as pd
 import flask
+import PIL
 import calendar
 from models import Course
 
